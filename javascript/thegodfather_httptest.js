@@ -70,7 +70,7 @@ function funcSub_AccessServer()
   // まだ仮実装状態
 
   // Socket初期化
-  var socket = new WebSocket("ws://localhost:8800/echo");
+  var socket = new WebSocket(document.getElementById("id_url").value); //new WebSocket("ws://localhost:8800/echo");
   var sResult = "";
  
   socket.onopen = function(e){ socket.send(document.getElementById("id_inWord").value); }
@@ -97,6 +97,11 @@ document.write("入力ワードから過去の人物などを参考に名前を�
 document.write("これから子供の名前を考えようと思っているアナタ…<br>");
 document.write("参考にしてはいかがでしょうか？<br>");
 document.write("苗字も入力してくださった方には画数からの名前相性もつけるよ！<br>");
+document.write("<br>");
+
+document.write("HttpリクエストテストURL<br>");
+document.write("http,httpsの部分をwsに変更して入力してください");
+document.write("<input type=\"text\" id=\"id_url\" size=\"45\" value=\"ws://localhost:8800/echo\"><br>");
 document.write("<br>");
 
 document.write("<table>");

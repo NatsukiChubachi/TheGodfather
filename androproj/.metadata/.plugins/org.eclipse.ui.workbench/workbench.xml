@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="25" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
 <window height="705" width="1255" x="118" y="1">
 <fastViewData fastViewLocation="1024"/>
@@ -41,9 +41,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TheGodfather.java" partName="TheGodfather.java" path="D:/PBL関連/eclipse_project/TheGodfather/src/com/app/TheGodfather/TheGodfather.java" title="TheGodfather.java" tooltip="TheGodfather/src/com/app/TheGodfather/TheGodfather.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TheGodfather.java" partName="TheGodfather.java" path="D:/PBL関連/git_folder/TheGodfather/androproj/TheGodfather/src/com/app/TheGodfather/TheGodfather.java" title="TheGodfather.java" tooltip="TheGodfather/src/com/app/TheGodfather/TheGodfather.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TheGodfather/src/com/app/TheGodfather/TheGodfather.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1470" selectionTopPixel="744"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2319" selectionTopPixel="744"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="D:/PBL関連/eclipse_project/TheGodfather/res/layout/main.xml" title="main.xml" tooltip="TheGodfather/res/layout/main.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TheGodfather/res/layout/main.xml"/>
@@ -119,10 +119,14 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -217,7 +221,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.79238755" ratioLeft="458" ratioRight="120" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.71453285" ratioLeft="413" ratioRight="165" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
