@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.app.TheGodfather.R.id"/>
+<fullyQualifiedTypeName name="org.apache.http.impl.client.DefaultHttpClient"/>
+<fullyQualifiedTypeName name="org.apache.http.client.methods.HttpUriRequest"/>
+<fullyQualifiedTypeName name="org.apache.http.client.methods.HttpGet"/>
+<fullyQualifiedTypeName name="org.apache.http.HttpResponse"/>
+<fullyQualifiedTypeName name="org.apache.http.HttpStatus"/>
+<fullyQualifiedTypeName name="org.apache.http.client.ClientProtocolException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.apache.http.client.methods.HttpPost"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.apache.http.client.entity.UrlEncodedFormEntity"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+</qualifiedTypeNameHistroy>

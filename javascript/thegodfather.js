@@ -71,7 +71,7 @@ function funcSub_AccessServer()
 
   // Socket初期化
   var socket = new WebSocket("ws://localhost:8800/echo");
-  socket.onopen = function(e){ socket.send("テスト"); }
+  socket.onopen = function(e){ socket.send(document.getElementById("id_inWord").value); }
   socket.onmessage = function(e){ alert("receive"); }
   socket.onerror = function(e){ alert("error"); }
   socket.onclose = function(e){ alert("close websocket"); }
