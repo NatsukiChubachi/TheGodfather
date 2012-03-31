@@ -29,6 +29,7 @@ function func_onExec()
   // 検索処理等はサーバに任せる
   var sResult = "どんどんどんどｎ";
   sResult = funcSub_AccessServer();
+  if(sResult==0) return;
 
   // 結果タグにHTMLで内容を記述する
   var info = document.getElementById("p_Result");
@@ -71,17 +72,21 @@ function funcSub_AccessServer()
 
   // Socket初期化
   var socket = new WebSocket(document.getElementById("id_url").value); //new WebSocket("ws://localhost:8800/echo");
-  var sResult = "";
  
   socket.onopen = function(e){ socket.send(document.getElementById("id_inWord").value); }
   socket.onmessage = function(e){
     alert("receive\n" + e.data);
-    sResult = e.data;
+
+    var info = document.getElementById("p_Result");
+    var sText = document.createTextNode(e.data);
+
+    info.removeChild(info.childNodes.item(0));
+    info.appendChild(sText);
   }
   socket.onerror = function(e){ alert("error"); }
   socket.onclose = function(e){ alert("close websocket"); }
 
-  return sResult;
+  return 0;
 }
 
 
@@ -100,7 +105,7 @@ document.write("苗字も入力してくださった方には画数からの名�
 document.write("<br>");
 
 document.write("HttpリクエストテストURL<br>");
-document.write("http,httpsの部分をwsに変更して入力してください");
+document.write("http,httpsの部分をwsに変更して入力してください<br>");
 document.write("<input type=\"text\" id=\"id_url\" size=\"45\" value=\"ws://localhost:8800/echo\"><br>");
 document.write("<br>");
 
@@ -121,6 +126,9 @@ document.write("<br>");
 document.write("<br>");
 
 document.write("<p id=\"p_Result\">ここに検索結果が表示されます</p>");
+
+
+
 
 
 
