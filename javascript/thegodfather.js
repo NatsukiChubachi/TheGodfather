@@ -67,6 +67,7 @@ function funcSub_AccessServer()
 {
   // ここでサーバーにアクセスし、処理してもらった情報を受信して結果を受け取る
   // 受け取った結果を返り値として返す
+  // まだ仮実装状態
 
   // Socket初期化
   var socket = new WebSocket("ws://localhost:8800/echo");
