@@ -50,4 +50,10 @@
         android:layout_height="wrap_content"
         android:text="検索開始" />
 
+    <TextView
+        android:id="@+id/tv_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48" />
+
 </LinearLayout>

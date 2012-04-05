@@ -19,6 +19,7 @@ public final class R {
         public static final int textView2=0x7f050001;
         public static final int textView3=0x7f050002;
         public static final int textView4=0x7f050004;
+        public static final int tv_Result=0x7f050007;
         public static final int txb_Word1=0x7f050003;
         public static final int txb_Word2=0x7f050005;
     }
